@@ -22,4 +22,9 @@ public class CalculatorTest {
 		assertEquals(0, calculator.sum(1, -1));
 	}
 	
+	@Test
+	public void testCalculatorSum0Number() {
+		assertEquals(1, calculator.sum(1, 0));
+	}
+	
 }
